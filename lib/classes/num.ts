@@ -14,8 +14,7 @@ class Num {
     }
 
     /**
-     * @summary Subtracts number from current value
-     * @description Subtracts a number from the current value, and returns the new object.
+     * Subtracts a number from the current value, and returns the new object.
      * @param {number} x The number to subtract
      * @returns {Num} The new object.
      */
@@ -25,8 +24,7 @@ class Num {
     }
     
     /**
-     * @summary Adds number to current value
-     * @description Adds a number to the current value, and returns the new object.
+     * Adds a number to the current value, and returns the new object.
      * @param {number} x The number to add.
      * @returns {Num} The new object.
      */
