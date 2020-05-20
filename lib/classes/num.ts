@@ -13,7 +13,7 @@ interface INum {
  * Class representing a number. 
  * @implements {INum}
 */
-export class Num implements INum {
+class Num implements INum {
     value: number;
     /** Create a number with a certain value. 
      * @constructor
@@ -43,3 +43,4 @@ export class Num implements INum {
     }
 
 }
+export { Num };
