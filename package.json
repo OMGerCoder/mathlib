@@ -6,7 +6,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "mocha --reporter spec",
-    "build": "tsc"
+    "build": "tsc",
+    "docgen": "jsdoc ./dist/** -d docs -t /Users/omger/code/jsdoc-themes/jsdoc-theme"
   },
   "keywords": [
     "module",
