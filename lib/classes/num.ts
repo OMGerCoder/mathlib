@@ -43,4 +43,4 @@ class Num implements INum {
     }
 
 }
-export { Num };
+export default Num;
