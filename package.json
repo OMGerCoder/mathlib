@@ -1,5 +1,5 @@
 {
-  "name": "@omgercoder/mathlib",
+  "name": "@omgerdev/mathlib",
   "version": "1.0.0",
   "description": "A module with math functions",
   "main": "dist/index.js",
