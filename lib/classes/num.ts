@@ -22,7 +22,8 @@ class Num implements INum {
     }
 
     /**
-     * Subtracts a number from the current value, and returns the new object.
+     * @summary Subtracts number from current value
+     * @description Subtracts a number from the current value, and returns the new object.
      * @param {number} x The number to subtract
      * @returns {Num} The new object.
      */
@@ -32,7 +33,8 @@ class Num implements INum {
     }
     
     /**
-     * Adds a number to the current value, and returns the new object.
+     * @summary Adds number to current value
+     * @description Adds a number to the current value, and returns the new object.
      * @param {number} x The number to add.
      * @returns {Num} The new object.
      */
