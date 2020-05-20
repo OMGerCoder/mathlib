@@ -1,5 +1,3 @@
-
-
 /** 
  * @class
  * Class representing a number. 
@@ -14,18 +12,6 @@ class Num {
     }
 
     /**
-     * Subtracts a number from the current value, and returns the new object.
-     * @function
-     * @memberof Num
-     * @param {number} x The number to subtract
-     * @returns {Num} The new object.
-     */
-    sub(x: number): Num {
-        this.value -= x;
-        return this;
-    }
-    
-    /**
      * Adds a number to the current value, and returns the new object.
      * @function
      * @memberof Num
@@ -37,5 +23,16 @@ class Num {
         return this;
     }
 
+    /**
+     * Subtracts a number from the current value, and returns the new object.
+     * @function
+     * @memberof Num
+     * @param {number} x The number to subtract
+     * @returns {Num} The new object.
+     */
+    sub(x: number): Num {
+        this.value -= x;
+        return this;
+    }
 }
 export { Num };
