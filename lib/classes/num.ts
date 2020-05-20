@@ -1,7 +1,7 @@
 /**
+ * A number
  * @module Num
  */
-
 
 interface INum {
     add(x: Number): Num;
