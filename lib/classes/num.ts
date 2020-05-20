@@ -3,7 +3,9 @@ interface INum {
     sub(x: Number): Num;
 }
 
-/** Class representing a number. */
+/** Class representing a number. 
+ * @class Num
+*/
 export class Num implements INum {
     value: number;
     /** Create a number with a certain value. */
