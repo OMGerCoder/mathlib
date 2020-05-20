@@ -1,14 +1,21 @@
+/**
+ * @module Num
+ */
+
+
 interface INum {
     add(x: Number): Num;
     sub(x: Number): Num;
 }
 
 /** Class representing a number. 
- * @class Num
+ * @implements {INum}
 */
 export class Num implements INum {
     value: number;
-    /** Create a number with a certain value. */
+    /** Create a number with a certain value. 
+     * @constructor
+    */
     constructor(value: number = 0) {
         this.value = value;
     }
