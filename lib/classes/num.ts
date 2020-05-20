@@ -17,7 +17,7 @@ export class Num implements INum {
      * @returns {Num} The new object.
      */
     sub(x: number): Num {
-        this.value += x;
+        this.value -= x;
         return this;
     }
     
@@ -27,7 +27,7 @@ export class Num implements INum {
      * @returns {Num} The new object.
      */
     add(x: number): Num {
-        this.value -= x;
+        this.value += x;
         return this;
     }
 
