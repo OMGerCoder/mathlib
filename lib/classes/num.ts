@@ -1,18 +1,10 @@
-/**
- * A number
- * @module Num
- */
 
-interface INum {
-    add(x: Number): Num;
-    sub(x: Number): Num;
-}
 
 /** 
+ * @class
  * Class representing a number. 
- * @implements {INum}
 */
-class Num implements INum {
+class Num {
     value: number;
     /** Create a number with a certain value. 
      * @constructor
