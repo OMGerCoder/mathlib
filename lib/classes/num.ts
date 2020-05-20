@@ -15,6 +15,8 @@ class Num {
 
     /**
      * Subtracts a number from the current value, and returns the new object.
+     * @function
+     * @memberof Num
      * @param {number} x The number to subtract
      * @returns {Num} The new object.
      */
@@ -25,6 +27,8 @@ class Num {
     
     /**
      * Adds a number to the current value, and returns the new object.
+     * @function
+     * @memberof Num
      * @param {number} x The number to add.
      * @returns {Num} The new object.
      */
