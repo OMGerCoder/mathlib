@@ -8,6 +8,7 @@ describe('functions test', () =>{
         expect(result).to.equal(6);
     });
     it('should say 4 - 2 is 2', () => {
-        
+        var result = index.sub(4, 2);
+        expect(result).to.equal(2)
     })
 });
