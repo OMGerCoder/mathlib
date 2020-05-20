@@ -9,15 +9,12 @@ interface INum {
 }
 
 /** 
- * @class
  * Class representing a number. 
  * @implements {INum}
 */
 class Num implements INum {
     value: number;
-    /** Create a number with a certain value. 
-     * @constructor
-    */
+    /** Create a number with a certain value. */
     constructor(value: number = 0) {
         this.value = value;
     }
