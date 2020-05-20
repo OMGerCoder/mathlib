@@ -2,4 +2,4 @@
 
 export { add } from './operations/add';
 export { sub } from './operations/sub';
-export * from './classes/num';
+export { Num } from './classes/num';

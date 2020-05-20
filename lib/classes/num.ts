@@ -38,4 +38,4 @@ class Num {
     }
 
 }
-export default Num;
+export { Num };
