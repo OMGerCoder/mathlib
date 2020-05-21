@@ -6,6 +6,7 @@ class Num {
     value: number;
     /** Create a number with a certain value. 
      * @constructor
+     * @param {Number} value The desired value.
     */
     constructor(value: number = 0) {
         this.value = value;
